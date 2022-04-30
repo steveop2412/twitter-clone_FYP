@@ -1,0 +1,128 @@
+@import "https://unpkg.com/open-props";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h2
+{
+    font-family: 'Red Rose', cursive;
+}
+.or-h1
+{
+  text-align: center;
+  max-width: 250px;
+  position: relative;
+}
+.or-h1:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #999;
+    left: 0;
+    opacity: 0.5;
+    top: 50%;
+    position: absolute;
+  }
+  
+.or-h1:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #999;
+    opacity: 0.5;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+.fb-btn
+{
+    background-color: #384F81;
+    color: #e7e7e7;
+}
+.term-n-c h6{
+    font-size: 10px;
+}
+.sign-btn,.log-link
+{
+    color: #e7e7e7;
+}
+
+.in-btn:hover{
+  background-color: #031018;
+  transition: 400ms background-color;
+}
+.search-right{
+  background-color: #202327;
+}
+.bg-new-gray{
+  background-color: #16181C;
+}
+@media only screen and (max-width: 1180px) {
+  .right-menu{
+    display: none;
+  }
+  .middle-wall{
+    margin-right: 10px;
+  }
+  .middle-wall{
+    padding-right: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .left-menu span{
+    display: none;
+  }
+  .prof-details{
+    display: none;
+  }
+}
+@media only screen and (max-width: 634px) {
+  .left-menu{
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .create-tweet{
+    display: none;
+  }
+}
+
+.tweet:hover{
+  background-color: #1D1F23;
+  cursor: pointer;
+  transition: 400ms background-color;
+}
+
+/* Tooltip */
+/* tooltip CSS */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  color: #e7e7e7;
+  text-align: center;
+  padding: 4px 0;
+  border-radius: 6px;
+top: 100%;
+left: 50%;
+font-size: 10px;
+margin-left: -10px;
+font-family: 'Hubballi', cursive;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

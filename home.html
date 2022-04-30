@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home / Twitter</title>
+        <!-------------------Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="style.css">
+        <!-------------------Favicon ---->
+    <link rel="shortcut icon" type="image/png" href="twitter-icon.png"/>
+        <!---------------- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+      </head>
+      <body>
+    <!-- component -->
+<div class="bg-black">
+    <div class="flex">
+
+        <div class="md:w-2/5 w-1/5 left-menu text-white md:pl-28 pl-10 sm:pl-10 pl-4 py-4 h-auto">
+            <!--left menu-->
+          <nav class="px-2 fixed">
+            <!--------------------twitter logo-->
+            <a href="home.html"><i class="flex items-center fab fa-twitter fa-2x ml-2 text-gray-200 mb-3"></i></a>
+          
+          <a href="#" class="group flex md:mr-0 mr-16 items-center p-2 text-base leading-6 font-semibold rounded-full bg-gray-800 text-blue-300">
+                <i class="fa fa-home text-lg ml-1 mr-4"></i>
+            <span>Home</span>
+          </a>
+        <a href="#" class="mt-1 group flex md:mr-0 mr-16 items-center px-2 py-2 text-base leading-6 font-semibold rounded-full hover:bg-gray-800 hover:text-blue-300">
+          <i class="fa fa-hashtag text-lg ml-1 mr-4"></i>
+          <span>Explore</span>
+        </a>
+        <a href="#" class="mt-1 group flex md:mr-0 mr-16 items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+          <i class="far fa-bell text-lg ml-1 mr-4"></i>
+         <span>Notifications</span>
+        </a>
+        <a href="#" class="mt-1 group flex md:mr-0 mr-16 items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+          <i class="fa fa-envelope text-lg ml-1 mr-4"></i>
+          <span>Messages</span>
+        </a>
+        <a href="#" class="mt-1 group flex md:mr-0 mr-16 items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+          <i class="fa fa-bookmark text-lg ml-1 mr-4"></i>
+          <span>Bookmarks</span>
+        </a>
+            <a href="#" class="mt-1 group flex md:mr-0 mr-16 items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+              <i class="fa fa-user-alt text-lg ml-1 mr-4"></i>
+          <span>Profile</span>
+        </a>
+            <a href="#" class="mt-1 group flex md:mr-0 mr-16 items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+              <i class='fa fa-cog text-lg ml-1 mr-4'></i>
+          <span>More</span>
+        </a>
+            
+            <button class="bg-blue-500 md:w-full w-50 mt-5 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">
+            <span>Tweet</span>
+            <i class="fa fa-edit"></i>
+          </button>
+
+          <div class="flex-shrink-0 flex hover:bg-blue-00 rounded-full p-4 mt-8 mr-2">
+            <a href="#" class="flex-shrink-0 group block">
+              <div class="flex items-center">
+                <div>
+                  <img class="inline-block object-cover h-10 w-10 rounded-full" src="dp3.jpg" alt="" />
+                </div>
+                <div class="ml-3 prof-details">
+                  <p class="text-base leading-6 font-medium text-white">
+                    John Wick
+                  </p>
+                  <p class="text-sm leading-5 font-medium text-gray-400 group-hover:text-gray-300 transition ease-in-out duration-150">
+                    @johnwick
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+      </nav>
+          
+    
+          
+    </div>
+
+        <div class="md:w-3/5 w-4/5 sm:w-4/5 w-full middle-wall border border-gray-600 h-auto  border-t-0">
+            <!--middle wall-->
+         
+            <div class="flex">
+                <div class="flex-1 m-2">
+                    <h2 class="px-4 py-2 text-xl font-semibold text-gray-200">Home</h2>
+                </div>
+                <div class="flex-1 px-4 py-2 m-2">
+                    <a href="" class="tooltip font-normal rounded-full text-white hover:bg-gray-800 hover:text-blue-300 float-right">
+                          <svg class="m-2 h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><g><path d="M22.772 10.506l-5.618-2.192-2.16-6.5c-.102-.307-.39-.514-.712-.514s-.61.207-.712.513l-2.16 6.5-5.62 2.192c-.287.112-.477.39-.477.7s.19.585.478.698l5.62 2.192 2.16 6.5c.102.306.39.513.712.513s.61-.207.712-.513l2.16-6.5 5.62-2.192c.287-.112.477-.39.477-.7s-.19-.585-.478-.697zm-6.49 2.32c-.208.08-.37.25-.44.46l-1.56 4.695-1.56-4.693c-.07-.21-.23-.38-.438-.462l-4.155-1.62 4.154-1.622c.208-.08.37-.25.44-.462l1.56-4.693 1.56 4.694c.07.212.23.382.438.463l4.155 1.62-4.155 1.622zM6.663 3.812h-1.88V2.05c0-.414-.337-.75-.75-.75s-.75.336-.75.75v1.762H1.5c-.414 0-.75.336-.75.75s.336.75.75.75h1.782v1.762c0 .414.336.75.75.75s.75-.336.75-.75V5.312h1.88c.415 0 .75-.336.75-.75s-.335-.75-.75-.75zm2.535 15.622h-1.1v-1.016c0-.414-.335-.75-.75-.75s-.75.336-.75.75v1.016H5.57c-.414 0-.75.336-.75.75s.336.75.75.75H6.6v1.016c0 .414.335.75.75.75s.75-.336.75-.75v-1.016h1.098c.414 0 .75-.336.75-.75s-.336-.75-.75-.75z"></path></g></svg>
+                        <span class="tooltiptext">Top tweets</span>
+                        </a>
+                </div>
+            </div>
+
+            <hr class="border-gray-600">
+            <!--middle create tweet-->
+            <div class="create-tweet">
+              <div class="flex">
+                <div class="m-2 py-1">
+                    <img class="inline-block object-cover h-10 w-10 rounded-full" src="dp3.jpg" alt="" />
+                </div>
+                <div class="flex-1 px-2 pt-2 mt-2">
+                    <textarea class="bg-transparent text-gray-400 font-medium text-lg w-full" rows="2" cols="50" placeholder="What's happening?"></textarea>
+                </div>                    
+            </div>
+            <!--middle creat tweet below icons-->
+            <div class="flex">
+                <div class="px-2">
+                    <div class="flex items-center">
+                        <button class="flex-1 text-center px-1 py-1 m-1">
+                          <a href="#" class="mt-1 group flex items-center text-blue-400 px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+                            <i class="fa fa-image tooltip"><span class="tooltiptext p-1 font-normal">Media</span></i>
+                        </a>
+                        </button>
+
+                        <div class="flex-1 text-center py-2 m-1">
+                            <a href="#" class="mt-1 group flex items-center text-blue-400 px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+                                <i class="fa fa-play-circle tooltip"><span class="tooltiptext p-1 text-center font-normal">GIF</span></i>
+                            </a>
+                        </div>
+
+                        <div class="flex-1 text-center py-2 m-1">
+                            <a href="#" class="mt-1 group flex items-center text-blue-400 px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+                              <i class="fas fa-poll tooltip"><span class="tooltiptext p-1 font-normal">Poll</span></i>
+                            </a>
+                        </div>
+
+                        <div class="flex-1 text-center py-2 m-1">
+                            <a href="#" class="mt-1 group flex items-center text-blue-400 px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+                            <i class="fa fa-smile tooltip"><span class="tooltiptext p-1 font-normal">Emoji</span></i>
+                        </a>
+                        </div>
+                        <div class="flex-1 text-center py-2 m-1">
+                          <a href="#" class="mt-1 group flex items-center text-blue-400 px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+                          <i class="fa fa-calendar-alt tooltip"><span class="tooltiptext p-1 font-normal">Schedule</span></i>
+                      </a>
+                      </div>
+                      <div class="flex-1 text-center py-2 m-1">
+                        <a href="#" class="mt-1 group flex items-center text-blue-400 px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+                        <i class="fa fa-map-marker-alt opacity-50"></i>
+                    </a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="flex-1">
+                    <button class="bg-blue-500 mt-5 hover:bg-blue-600 text-white font-bold py-1 px-8 rounded-full mr-6 float-right">
+                        Tweet
+                      </button>
+                </div>
+            </div>
+            </div>
+
+            <hr class="border-gray-800 border">
+
+            
+        <div>
+        </div>
+
+
+
+        <!--first tweet start-->
+        <div class="flex flex-shrink-0 p-4 pb-0">
+            <a href="#" class="flex-shrink-0 group block">
+              <div class="flex items-center">
+                <div>
+                  <img class="inline-block object-cover h-10 w-10 rounded-full" src="girl.jpg" alt="" />
+                </div>
+                <div class="ml-3">
+                  <p class="sm:text-base text-md leading-6 font-medium text-white">
+                    Sonali Hirave 
+                    <span class="sm:text-sm text-xs leading-5 font-medium text-gray-400 group-hover:text-gray-300 transition ease-in-out duration-150">
+                        @ShonaDesign . 11h
+                      </span>
+                       </p>
+                </div>
+              </div>
+            </a>
+        </div>
+        <div class="pl-16">
+            <p class="sm:text-sm text-xs width-auto font-medium text-white flex-shrink">
+              Day 07 of the challenge <span class="text-blue-400">#100DaysOfCode</span> 
+              I was wondering what I can do with <span class="text-blue-400">#tailwindcss</span>, so just started building Twitter  UI using Tailwind and so far it looks so promising. I will post my code after completion.
+              [07/100]
+              <span class="text-blue-400"> #WomenWhoCode #CodeNewbie</span>
+            </p>
+
+
+            <div class="flex">
+                <div class="w-full">
+                    
+                    <div class="flex items-center justify-between mr-3">
+                        <div class="flex text-center py-2 m-2">
+                            <a href="#" class="mt-1 group flex items-center text-gray-500 p-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+                              <i class='far fa-comment'></i>
+                              </a>
+                        </div>
+
+                        <div class="flex text-center py-2 m-2">
+                            <a href="#" class="mt-1 group flex items-center text-gray-500 p-2 text-base leading-6 rounded-full hover:bg-gray-800 hover:text-green-500">
+                              <i class="fa fa-retweet"></i>
+                            </a>
+                        </div>
+
+                        <div class="flex text-center py-2 m-2">
+                            <a href="#" class="mt-1 group flex items-center text-gray-500 p-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-red-400">
+                              <i class='far fa-heart'></i>
+                            </a>
+                        </div>
+
+                        <div class="flex text-center py-2 m-2">
+                            <a href="#" class="mt-1 group flex items-center text-gray-500 p-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+                              <svg class="text-center h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+
+            
+            </div>
+            
+          </div>
+          <hr class="border-gray-600">
+
+            <!--second tweet-->
+
+          <div class="flex flex-shrink-0 p-4 pb-0">
+            <a href="#" class="flex-shrink-0 group block">
+              <div class="flex items-center">
+                <div>
+                  <img class="inline-block object-cover h-10 w-10 rounded-full" src="dp.jpg" alt="" />
+                </div>
+                <div class="ml-3">
+                  <p class="sm:text-base text-md leading-6 font-medium text-white">
+                    Alex Costa 
+                    <span class="sm:text-sm text-xs leading-5 font-medium text-gray-400 group-hover:text-gray-300 transition ease-in-out duration-150">
+                        @alexcosta . 16h
+                      </span>
+                       </p>
+                </div>
+              </div>
+            </a>
+        </div>
+
+
+        <div class="pl-16">
+            <p class="sm:text-sm text-xs width-auto font-medium text-white flex-shrink">
+              Day 07 of the challenge <span class="text-blue-400">#100DaysOfCode</span> 
+              I was wondering what I can do with <span class="text-blue-400">#tailwindcss</span>, so just started building Twitter  UI using Tailwind and so far it looks so promising. I will post my code after completion.
+              [07/100]
+              <span class="text-blue-400"> #Codewithtailwind #CodeNewbie</span>
+            </p>
+
+            <div class="md:flex-shrink pr-6 pt-3">
+                <img class="rounded-lg object-cover w-full h-64" src="code.jpg" alt="Coding">
+              </div>
+            <div class="flex">
+                <div class="w-full">
+                    
+                  <div class="flex items-center justify-between mr-3">
+                    <div class="flex text-center py-2 m-2">
+                        <a href="#" class="mt-1 group flex items-center text-gray-500 p-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+                          <i class='far fa-comment'></i>
+                          </a>
+                    </div>
+
+                    <div class="flex text-center py-2 m-2">
+                        <a href="#" class="mt-1 group flex items-center text-gray-500 p-2 text-base leading-6 rounded-full hover:bg-gray-800 hover:text-green-500">
+                          <i class="fa fa-retweet"></i>
+                        </a>
+                    </div>
+
+                    <div class="flex text-center py-2 m-2">
+                        <a href="#" class="mt-1 group flex items-center text-gray-500 p-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-red-400">
+                          <i class='far fa-heart'></i>
+                        </a>
+                    </div>
+
+                    <div class="flex text-center py-2 m-2">
+                        <a href="#" class="mt-1 group flex items-center text-gray-500 p-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+                          <svg class="text-center h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
+                    </a>
+                    </div>
+                </div>
+                </div>
+
+            
+            </div>
+            
+          </div>
+          <hr class="border-gray-600">
+
+
+
+
+          <!--third tweet-->
+
+          <div class="flex flex-shrink-0 p-4 pb-0">
+            <a href="#" class="flex-shrink-0 group block">
+              <div class="flex items-center">
+                <div>
+                  <img class="inline-block object-cover h-10 w-10 rounded-full" src="dp4.jpg" alt="" />
+                </div>
+                <div class="ml-3">
+                  <p class="sm:text-base text-md leading-6 font-medium text-white">
+                    Derek Hale 
+                    <span class="sm:text-sm text-xs leading-5 font-medium text-gray-400 group-hover:text-gray-300 transition ease-in-out duration-150">
+                        @iamderek . 21h
+                      </span>
+                       </p>
+                </div>
+              </div>
+            </a>
+        </div>
+        <div class="pl-16">
+            <p class="sm:text-sm text-xs width-auto font-medium text-white flex-shrink">
+              Day 07 of the challenge <span class="text-blue-400">#100DaysOfCode</span> 
+              I was wondering what I can do with <span class="text-blue-400">#tailwindcss</span>, so just started building Twitter  UI using Tailwind and so far it looks so promising. I will post my code after completion.
+              [07/100]
+              <span class="text-blue-400"> #Codewithtailwind #CodeNewbie</span>
+            </p>
+
+    
+            <div class="flex">
+                <div class="w-full">
+                    
+                  <div class="flex items-center justify-between mr-3">
+                    <div class="flex text-center py-2 m-2">
+                        <a href="#" class="mt-1 group flex items-center text-gray-500 p-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+                          <i class='far fa-comment'></i>
+                          </a>
+                    </div>
+
+                    <div class="flex text-center py-2 m-2">
+                        <a href="#" class="mt-1 group flex items-center text-gray-500 p-2 text-base leading-6 rounded-full hover:bg-gray-800 hover:text-green-500">
+                          <i class="fa fa-retweet"></i>
+                        </a>
+                    </div>
+
+                    <div class="flex text-center py-2 m-2">
+                        <a href="#" class="mt-1 group flex items-center text-gray-500 p-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-red-400">
+                          <i class='far fa-heart'></i>
+                        </a>
+                    </div>
+
+                    <div class="flex text-center py-2 m-2">
+                        <a href="#" class="mt-1 group flex items-center text-gray-500 p-2 text-base leading-6 font-medium rounded-full hover:bg-gray-800 hover:text-blue-300">
+                          <svg class="text-center h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
+                    </a>
+                    </div>
+                </div>
+                </div>
+
+            
+            </div>
+            
+          </div>
+          <hr class="border-gray-600 mb-10">
+          <!-------------ICON BOX-->
+          <nav class = "sm:hidden flex bg-gray-900 w-full py-2 justify-between sm:ml-auto icon-box mt-3 items-center fixed bottom-0 text-white text-base px-2">
+            <a class="ml-3 mr-5 hover:text-gray-900"><i class="fa fa-home text-xl"></i></a>
+            <a class="mr-5 hover:text-gray-900"><i class="fa fa-search text-xl"></i></a>
+            <a class="mr-5 hover:text-gray-900"><i class="fa fa-bell text-xl"></i></a>
+            <a class="mr-5 hover:text-gray-900"><i class="fa fa-envelope text-xl"></i></a>
+          </nav>
+    </div>
+
+
+        <div class="w-2/5 right-menu h-12 ">
+            <!--right menu-->
+
+            <div class="relative text-gray-300 w-80 p-5 pb-0 mr-16">
+                <button type="submit" class="absolute ml-4 mt-3 mr-4">
+                    <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="512px" height="512px">
+                      <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z"/>
+                    </svg>
+                  </button>
+
+                <input type="search" name="search" placeholder="Search Twitter" class="search-right h-10 px-10 pr-5 w-full text-sm bg-purple-white shadow rounded-full focus:bg-black ring-blue-500">
+                
+            </div>
+    
+
+
+                <!--second-trending tweet section-->
+            <div class="max-w-sm rounded-lg bg-new-gray overflow-hidden shadow-lg m-4 mr-20">
+                <div class="flex">
+                    <div class=" m-2">
+                        <h1 class="px-4 py-2 text-lg font-bold text-gray-200">What's happening</h1>
+                    </div>
+                </div>
+
+
+                <hr class="border-gray-600">
+
+                    <!--first trending tweet-->
+                <div class="flex tweet">
+                    <div class="flex-1">
+                        <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-400">1 . Trending</p>
+                        <h2 class="px-4 ml-2 w-48 font-bold text-white">#Microsoft363</h2>
+                        <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-400">5,466 Tweets</p>
+                        
+                    </div>
+                    <div class="flex-1 px-4 py-2 m-2">
+                        <a href="" class=" text-2xl rounded-full text-gray-400 hover:bg-gray-800 hover:text-gray-300 float-right">
+                            <svg class="m-2 h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <hr class="border-gray-600">
+
+                <!--second trending tweet-->
+
+                <div class="flex tweet">
+                    <div class="flex-1">
+                        <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-400">2 .  Politics . Trending</p>
+                        <h2 class="px-4 ml-2 w-48 font-bold text-white">#HI-Fashion</h2>
+                        <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-400">8,464 Tweets</p>
+                        
+                    </div>
+                    <div class="flex-1 px-4 py-2 m-2">
+                        <a href="" class=" text-2xl rounded-full text-gray-400 hover:bg-gray-800 hover:text-gray-300 float-right">
+                            <svg class="m-2 h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <hr class="border-gray-600">
+
+                <!--third trending tweet-->
+
+                <div class="flex tweet">
+                    <div class="flex-1">
+                        <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-400">3 .  Rock . Trending</p>
+                        <h2 class="px-4 ml-2 w-48 font-bold text-white">#Ferrari</h2>
+                        <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-400">5,586 Tweets</p>
+                        
+                    </div>
+                    <div class="flex-1 px-4 py-2 m-2">
+                        <a href="" class=" text-2xl rounded-full text-gray-400 hover:bg-gray-800 hover:text-gray-300 float-right">
+                            <svg class="m-2 h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <hr class="border-gray-600">
+
+                <!--forth trending tweet-->
+
+                <div class="flex tweet">
+                    <div class="flex-1">
+                        <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-400">4 . Auto Racing . Trending</p>
+                        <h2 class="px-4 ml-2 w-48 font-bold text-white">#vettel</h2>
+                        <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-400">9,416 Tweets</p>
+                        
+                    </div>
+                    <div class="flex-1 px-4 py-2 m-2">
+                        <a href="" class=" text-2xl rounded-full text-gray-400 hover:bg-gray-800 hover:text-gray-300 float-right">
+                            <svg class="m-2 h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <hr class="border-gray-600">
+
+                <!--show more-->
+
+                <div class="flex tweet">
+                    <div class="flex-1 p-4">
+                        <h2 class="px-4 ml-2 w-48 font-bold text-blue-400">Show more</h2>  
+                    </div>
+                </div>
+            
+            </div>
+
+
+            <!--third-people suggetion to follow section-->
+            
+            <div class="max-w-sm rounded-lg bg-new-gray overflow-hidden shadow-lg m-4 mr-20">
+                <div class="flex">
+                    <div class="flex-1 m-2">
+                        <h1 class="px-4 py-2 text-lg w-48 font-bold text-gray-300">Who to follow</h1>
+                    </div>
+                </div>
+
+
+                <hr class="border-gray-600">
+
+                    <!--first person who to follow--> 
+                    
+                <div class="flex flex-shrink-0 tweet">
+                    <div class="flex-1 ">
+                        <div class="flex items-center w-48">
+                            <div>
+                              <img class="inline-block h-10 w-10 object-cover rounded-full ml-4 mt-2" src="follow1.jpg" alt="" />
+                            </div>
+                            <div class="ml-3 mt-3">
+                              <p class="text-sm leading-6 font-medium text-white">
+                                Gwen Jackson
+                              </p>
+                              <p class="text-xs leading-5 font-medium text-gray-400 group-hover:text-gray-300 transition ease-in-out duration-150">
+                                @gwenjackson
+                              </p>
+                            </div>
+                          </div>
+                        
+                    </div>
+                    <div class="flex-1 px-4 py-2 m-2">
+                        <a href="" class=" float-right">
+                            <button class="bg-gray-300 text-sm hover:bg-blue-500 text-black font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded-full">
+                                Follow
+                              </button>  
+                        </a>
+                        
+                    </div>
+                </div>
+                <hr class="border-gray-600">
+
+                <!--second person who to follow--> 
+                    
+                <div class="flex flex-shrink-0 tweet">
+                    <div class="flex-1 ">
+                        <div class="flex items-center w-48">
+                            <div>
+                              <img class="inline-block object-cover h-10 w-10 rounded-full ml-4 mt-2" src="follow2.jpg" alt="" />
+                            </div>
+                            <div class="ml-3 mt-3">
+                              <p class="text-sm leading-6 font-medium text-white">
+                                Elijah Hiett
+                              </p>
+                              <p class="text-xs leading-5 font-medium text-gray-400 group-hover:text-gray-300 transition ease-in-out duration-150">
+                                @elijahhiett
+                              </p>
+                            </div>
+                          </div>
+                        
+                    </div>
+                    <div class="flex-1 px-4 py-2 m-2">
+                        <a href="" class=" float-right">
+                            <button class="bg-gray-200 text-sm hover:bg-blue-500 text-black font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded-full">
+                                Follow
+                              </button>  
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <hr class="border-gray-600">
+
+               
+
+                <!--show more-->
+
+                <div class="flex tweet">
+                    <div class="flex-1 p-4">
+                        <h2 class="px-4 ml-2 w-48 font-bold text-blue-400">Show more</h2>  
+                    </div>
+                </div>
+            
+            </div>
+
+        <div class="flow-root m-6 inline">
+            <div class="flex-1">
+                <a href="#">
+                <span class="text-xs mr-2 leading-6 font-medium hover:text-blue-500 hover:underline text-gray-500">Terms of Service</span>
+                <span class="text-xs mr-2 leading-6 font-medium hover:text-blue-500 hover:underline text-gray-500">Privacy Policy</span>
+                <span class="text-xs mr-2 leading-6 font-medium hover:text-blue-500 hover:underline text-gray-500">Cookie Policy</span>
+                <br>
+                <span class="text-xs mr-2 leading-6 font-medium hover:text-blue-500 hover:underline text-gray-500">Accesibility</span>
+                <span class="text-xs mr-2 leading-6 font-medium hover:text-blue-500 hover:underline text-gray-500">Ads info</span>
+                <span class="text-xs mr-2 leading-6 font-medium hover:text-blue-500 hover:underline text-gray-500">More...</span>
+                  </a>
+                </div>
+            <div class="flex-2">
+                <p class="text-sm leading-6 font-medium text-gray-600"> © 2022 Twitter, Inc.</p>
+            </div>
+            </div>
+    </div>
+
+</div>
+    
+</div>
+</body>
+</html>
